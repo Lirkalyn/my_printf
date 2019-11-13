@@ -6,7 +6,6 @@
 */
 
 #include <stdlib.h>
-//#include <stdio.h>
 
 char *replace_str_c(char *str, int letter, int pos)
 {

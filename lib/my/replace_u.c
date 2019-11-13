@@ -6,7 +6,6 @@
 */
 
 #include <stdlib.h>
-//#include <stdio.h>
 
 void num_len2(unsigned int num, int *len)
 {

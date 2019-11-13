@@ -15,7 +15,8 @@
     "python.linting.prospectorEnabled": false,
     "files.associations": {
         "racket": "racket",
-        "sstream": "c"
+        "sstream": "c",
+        "stdlib.h": "c"
     }
     //"C:\\WINDOWS\\system32\\cmd.exe"
 }

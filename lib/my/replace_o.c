@@ -6,7 +6,6 @@
 */
 
 #include <stdlib.h>
-//#include <stdio.h>
 
 char *octa_conv(unsigned int src)
 {

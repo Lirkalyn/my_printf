@@ -6,7 +6,6 @@
 */
 
 #include <stdlib.h>
-//#include <stdio.h>
 
 char *bina_conv(unsigned int src)
 {

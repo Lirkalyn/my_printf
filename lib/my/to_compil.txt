@@ -1,1 +1,0 @@
-gcc my_printf.c replace_d.c replace_c.c replace_s.c display.c replace_p.c replace_b.c switchs.c replace_o.c replace_pour.c replace_u.c replace_x.c replace_xx.c

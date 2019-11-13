@@ -6,7 +6,6 @@
 */
 
 #include <stdlib.h>
-//#include <stdio.h>
 
 char *replace_str_pour(char *str, int pos, int opt)
 {

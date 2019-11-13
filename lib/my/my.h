@@ -8,8 +8,6 @@
 #ifndef _MY_H_
 #define _MY_H_
 
-#include <stdarg.h>
-
 int my_putstr(char *str);
 char *wich_switch(char *str, va_list param, int pos, int i);
 char *replace_str(char *str, va_list param, int pos, int i);
