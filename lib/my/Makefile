@@ -28,6 +28,7 @@ $(NAME):	$(OBJ)
 		gcc -c $(SRC)
 		ar rc $(NAME) $(OBJ)
 		cp $(NAME) ../
+		cp $(NAME) ../../
 		cp my.h ../../include
 
 clean:
@@ -36,5 +37,6 @@ clean:
 fclean:	clean
 		rm -f $(NAME)
 		rm -f ../$(NAME)
+		rm -f ../../$(NAME)
 
 re:	fclean $(NAME)
