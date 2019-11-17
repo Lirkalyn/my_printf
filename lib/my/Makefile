@@ -18,7 +18,12 @@ SRC	=	my_printf.c \
 		replace_pour.c \
 		replace_u.c \
 		replace_x.c \
-		replace_xx.c
+		replace_xx.c \
+		replace_n.c \
+		replace_p_d.c \
+		replace_h_o.c \
+		replace_h_x.c \
+		replace_h_xx.c
 
 OBJ	=	$(SRC:.c=.o)
 

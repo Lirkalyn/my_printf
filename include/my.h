@@ -23,5 +23,11 @@ char *replace_str_u(char *str, unsigned int num, int pos);
 char *replace_str_x(char *str, int src, int pos);
 char *replace_str_xx(char *str, int src, int pos);
 void my_printf(char *str, ...);
+char *replace_str_n(char *str, int *src, int pos);
+char *replace_str_p_ds(char *str, int num, int pos);
+char *replace_str_h_o_0(char *str, unsigned int src, int pos);
+char *replace_str_h_o(char *str, unsigned int src, int pos);
+char *replace_str_h_x(char *str, int src, int pos);
+char *replace_str_h_xx(char *str, int src, int pos);
 
 #endif
