@@ -13,7 +13,7 @@ char *special_cases(char *str, va_list param, int pos, int i)
 {
     if (pos == 14 && (str[i + 2] == 'd' || str[i + 2] == 'i'))
         return wich_switch(str, param, pos, i);
-    if (pos == 15) {
+    else if (pos == 15) {
         if (str[i + 2] == 'o')
             return wich_switch(str, param, pos, i);
         if (str[i + 2] == 'x')
@@ -21,6 +21,7 @@ char *special_cases(char *str, va_list param, int pos, int i)
         if (str[i + 2] == 'X')
             return wich_switch(str, param, (pos + 2), i);
     }
+    return str;
 }
 
 char *pre_replace_str(char *str, va_list param, int *i, int *j)
